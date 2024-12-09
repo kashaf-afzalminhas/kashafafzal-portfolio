@@ -19,7 +19,7 @@ const Home = () => {
           </p>
           {/* Button positioned for PC */}
           <button className="text-gray w-fit px-6 py-3 my-2 mt-5 flex items-center rounded-md bg-gradient-to-r from-[#B3E5FC] to-[#FFF8E1] cursor-pointer">
-            <a href="/Kashaf Afzal Resume.pdf" download={true}>Download Resume</a>
+            <a href="/Kashaf-Afzal-Resume.pdf" download={true}>Download Resume</a>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowUturnDown size={20} className="ml-2" />
             </span>
