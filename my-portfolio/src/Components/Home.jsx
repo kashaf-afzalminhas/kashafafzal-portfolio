@@ -19,7 +19,7 @@ const Home = () => {
           <p className="text-gray-600 mt-2 text-lg sm:text-xl">
             "Bringing your visions to life on the web - pixel-perfect, responsive, and delightful."
           </p>
-          <button className="text-gray w-fit mt-5 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-[#B3E5FC] to-[#FFF8E1] cursor-pointer">
+          <button className="text-gray btn-cntr w-fit mt-5 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-[#B3E5FC] to-[#FFF8E1] cursor-pointer">
             <a
               href="https://kashaf-afzalminhas.github.io/kashafafzal-portfolio/Kashaf-Afzal-Resume.pdf"
               target="_blank"
@@ -52,6 +52,11 @@ const Home = () => {
           img {
             width: 90%; /* Adjust image size for mobile */
           }
+            .btn-cntr{
+             align-content: center;
+    justify-content: center;
+    align-self: center;
+            }
         }
       `}</style>
     </div>
