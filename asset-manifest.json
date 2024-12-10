@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/kashafafzal-portfolio/static/css/main.af68642d.css",
-    "main.js": "/kashafafzal-portfolio/static/js/main.5fd13f37.js",
+    "main.css": "/kashafafzal-portfolio/static/css/main.884d0583.css",
+    "main.js": "/kashafafzal-portfolio/static/js/main.2ff55b67.js",
     "static/media/shop.jpg": "/kashafafzal-portfolio/static/media/shop.ccc759279202f575c668.jpg",
     "static/media/hopeforpaws.png": "/kashafafzal-portfolio/static/media/hopeforpaws.4d26995e9ec8dd94e280.png",
     "static/media/home.png": "/kashafafzal-portfolio/static/media/home.3b547dd7316bcce5ab2b.png",
+    "static/media/circular-std-medium-500.ttf": "/kashafafzal-portfolio/static/media/circular-std-medium-500.3fcb6535e39024a69e30.ttf",
     "static/media/reactj.jpg": "/kashafafzal-portfolio/static/media/reactj.23e0bb388de1baa66c81.jpg",
     "static/media/nd.jpg": "/kashafafzal-portfolio/static/media/nd.12f7c8fb548b961ba2ee.jpg",
     "static/media/css.jpg": "/kashafafzal-portfolio/static/media/css.cac9a9477875a99b3589.jpg",
     "static/media/html.jpg": "/kashafafzal-portfolio/static/media/html.99c0ccccb859c8a9ee34.jpg",
     "static/media/mongo.png": "/kashafafzal-portfolio/static/media/mongo.495096f3c71200bb00ac.png",
     "index.html": "/kashafafzal-portfolio/index.html",
-    "main.af68642d.css.map": "/kashafafzal-portfolio/static/css/main.af68642d.css.map",
-    "main.5fd13f37.js.map": "/kashafafzal-portfolio/static/js/main.5fd13f37.js.map"
+    "main.884d0583.css.map": "/kashafafzal-portfolio/static/css/main.884d0583.css.map",
+    "main.2ff55b67.js.map": "/kashafafzal-portfolio/static/js/main.2ff55b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.af68642d.css",
-    "static/js/main.5fd13f37.js"
+    "static/css/main.884d0583.css",
+    "static/js/main.2ff55b67.js"
   ]
 }
