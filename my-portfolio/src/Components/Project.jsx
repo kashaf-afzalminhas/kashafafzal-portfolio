@@ -34,20 +34,20 @@ function Project() {
           </p>
           <p className="py-4 text-lg">Check Out Some Of My Projects</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center px-4">
           {posts.map(({ id, src, title, style, description }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 rounded-lg p-4 ${style} transition-transform`}
+              className={`shadow-lg hover:scale-105 duration-500 rounded-lg overflow-hidden ${style} transition-transform`}
             >
               <img
                 src={src}
                 alt={title}
-                className="w-full h-60 object-cover rounded-t-lg" 
+                className="w-full h-56 object-cover" 
               />
-              <div className="mt-3">
+              <div className="p-4 flex flex-col items-center"> {/* Center align items */}
                 <p className="font-bold text-lg">{title}</p>
-                <p className="text-gray-600 text-sm">{description}</p> 
+                <p className="text-gray-600 text-sm text-center">{description}</p> {/* Center text */}
               </div>
             </div>
           ))}

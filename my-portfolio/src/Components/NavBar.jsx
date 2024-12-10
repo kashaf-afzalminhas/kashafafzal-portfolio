@@ -18,13 +18,13 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="w-full h-20 flex justify-between items-center text-black bg-gradient-to-b from-[#B3E5FC] to-[#FFE5B4] fixed px-4 shadow-lg z-10">
-        <h1 className="text-4xl font-signature ml-2 mt-4">Kashaf Afzal</h1>
+      <nav className="w-full h-12 flex justify-between items-center text-black bg-gradient-to-b from-[#B3E5FC] to-[#FFE5B4] fixed px-4 shadow-lg z-10">
+        <h1 className="text-2xl font-signature ml-2">Kashaf Afzal</h1>
         <ul className="hidden md:flex">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 py-5 cursor-pointer text-lg capitalize font-medium text-gray-800 hover:scale-105 hover:text-black transition duration-300 hover:font-bold"
+              className="px-4 py-2 cursor-pointer text-md capitalize font-medium text-gray-800 hover:scale-105 hover:text-black transition duration-300 hover:font-bold"
             >
               <Link to={link} smooth duration={500} onClick={handleLinkClick}>
                 {link.charAt(0).toUpperCase() + link.slice(1)}

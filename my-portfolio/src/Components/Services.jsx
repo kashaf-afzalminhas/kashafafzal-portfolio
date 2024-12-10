@@ -17,7 +17,7 @@ function Services() {
     {
       id: 2,
       src: Css,
-      title: 'CSS/Tailwind/Bootstrap',
+      title: 'Tailwind/Bootstrap',
       style: 'shadow-blue-500',
     },
     {
