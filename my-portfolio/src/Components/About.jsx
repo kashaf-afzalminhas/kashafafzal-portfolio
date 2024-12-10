@@ -5,7 +5,7 @@ const About = () => {
     <div className="w-full h-auto bg-gradient-to-b from-[#B3E5FC] to-[#FFF8E1] text-black" name='about'>
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full py-5 md:py-10">
         <div className="pb-4 text-center">
-          <h2 className="text-3xl md:text-2xl font-bold mb-2">About Me</h2>
+          <h2 className="text-3xl md:text-2xl font-LyonDisplay  font-bold mb-2">About Me</h2>
           <p className="text-base md:text-lg text-gray-600">A brief introduction about my skills and passion.</p>
         </div>
         <div className="text-sm md:text-base mt-3 space-y-4">

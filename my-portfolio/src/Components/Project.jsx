@@ -38,7 +38,7 @@ function Project() {
           {posts.map(({ id, src, title, style, description }) => (
             <div
               key={id}
-              className={`shadow-lg hover:scale-105 duration-500 rounded-lg overflow-hidden ${style} transition-transform`}
+              className={` opacity-80 shadow-black hover:scale-105 duration-500 rounded-lg overflow-hidden ${style} transition-transform`}
             >
               <img
                 src={src}

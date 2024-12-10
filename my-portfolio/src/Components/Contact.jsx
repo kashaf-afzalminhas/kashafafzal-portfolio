@@ -14,21 +14,21 @@ function Contact() {
               type="text"
               name='name'
               placeholder='Enter Your Name'
-              className='p-2 bg-transparent border-2 rounded-md text-black focus:outline-none'
+              className='p-2  bg-white  border-2 rounded-md text-black focus:outline-none'
             />
             <input
               type="text"
               name='email'
               placeholder='Enter Your Email'
-              className='my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none'
+              className='my-4 p-2 bg-white border-2 rounded-md text-black focus:outline-none'
             />
             <textarea
               placeholder='Enter Your Message'
               name="Message"
               rows="10"
-              className='p-2 bg-transparent border-2 focus:outline-none text-black rounded-md'
+              className='p-2  bg-white  border-2 focus:outline-none text-black rounded-md'
             ></textarea>
-            <button className='text-gray bg-gradient-to-b from-[#B3E5FC] via-[#FFF8E1] to-[#FFF8E1] px-6 py-3 my-9 mx-auto flex items-center rounded-md hover:scale-100 duration-300'>Let's Talk</button>
+            <button className='text-gray-950 bg-[#B3E5FC]  hover:bg-[#a3d6ee] px-6 py-3 my-9 mx-auto flex items-center rounded-md hover:scale-100 duration-300'>Let's Talk</button>
           </form>
         </div>
       </div>

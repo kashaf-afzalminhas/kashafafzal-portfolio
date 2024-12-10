@@ -13,13 +13,13 @@ const Home = () => {
           <h2 className="text-2xl sm:text-3xl font-bold text-black">
             Hi, I'm Kashaf Afzal Minhas.
           </h2>
-          <h3 className="text-gray-700 text-xl sm:text-2xl">
+          <h3 className="text-gray-700 text-lg sm:text-2xl">
             A passionate Software Engineer.
           </h3>
           <p className="text-gray-600 mt-2 text-lg sm:text-xl">
             "Bringing your visions to life on the web - pixel-perfect, responsive, and delightful."
           </p>
-          <button className="text-gray btn-cntr w-fit mt-5 px-6 py-3 flex items-center rounded-md bg-gradient-to-r from-[#B3E5FC] to-[#FFF8E1] cursor-pointer">
+          <button className="text-gray btn-cntr w-fit mt-5 px-6 py-3 flex items-center rounded-md  bg-[#B3E5FC]  hover:bg-[#a3d6ee] cursor-pointer">
             <a
               href="https://kashaf-afzalminhas.github.io/kashafafzal-portfolio/Kashaf-Afzal-Resume.pdf"
               target="_blank"

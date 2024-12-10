@@ -1,16 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/circular-std-medium-500.ttf') format('truetype'); /* Adjust the path if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://db.onlinewebfonts.com/c/3022f37bd10f5228f9763f7e620d15c5?family=Lyon+Display+Web+Black+Italic');
+@import url('https://db.onlinewebfonts.com/c/dd361acac015930c5ced8f1135068f23?family=LyonText-Regular');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base{
-  html{
-    
-      font-family: "Raleway", sans-serif;
-      font-optical-sizing: auto;
-   
-      font-style: normal;
-    
-    
+
+@layer base {
+  html {
+    font-family: 'LyonText', sans-serif; /* Default font for the document */
+    font-optical-sizing: auto;
+    font-style: normal;
   }
+}
+
+body {
+  font-family: 'CircularStd', sans-serif; /* Body font set to Circular Std */
+  line-height: 1.6; /* Improved readability */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'LyonText', sans-serif; /* Headings font */
+  margin: 0; /* Reset margin */
+}
+
+h1 {
+  font-size: 2.5rem; /* Adjust as needed */
+}
+
+h2 {
+  font-size: 2rem; /* Adjust as needed */
+}
+
+h3 {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+button {
+  font-family: 'CircularStd', sans-serif; /* Button font */
+  font-weight: normal; /* Adjust weight as necessary */
+}
+
+p {
+  font-family: 'CircularStd', sans-serif; /* Paragraph font */
+  margin: 0 0 1rem; /* Bottom margin for spacing */
 }
