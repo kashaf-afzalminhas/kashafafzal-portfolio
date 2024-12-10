@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kashafafzal-portfolio/static/css/main.884d0583.css",
-    "main.js": "/kashafafzal-portfolio/static/js/main.2ff55b67.js",
+    "main.css": "/kashafafzal-portfolio/static/css/main.57484eb1.css",
+    "main.js": "/kashafafzal-portfolio/static/js/main.5cb2bdd7.js",
     "static/media/shop.jpg": "/kashafafzal-portfolio/static/media/shop.ccc759279202f575c668.jpg",
     "static/media/hopeforpaws.png": "/kashafafzal-portfolio/static/media/hopeforpaws.4d26995e9ec8dd94e280.png",
     "static/media/home.png": "/kashafafzal-portfolio/static/media/home.3b547dd7316bcce5ab2b.png",
@@ -12,11 +12,11 @@
     "static/media/html.jpg": "/kashafafzal-portfolio/static/media/html.99c0ccccb859c8a9ee34.jpg",
     "static/media/mongo.png": "/kashafafzal-portfolio/static/media/mongo.495096f3c71200bb00ac.png",
     "index.html": "/kashafafzal-portfolio/index.html",
-    "main.884d0583.css.map": "/kashafafzal-portfolio/static/css/main.884d0583.css.map",
-    "main.2ff55b67.js.map": "/kashafafzal-portfolio/static/js/main.2ff55b67.js.map"
+    "main.57484eb1.css.map": "/kashafafzal-portfolio/static/css/main.57484eb1.css.map",
+    "main.5cb2bdd7.js.map": "/kashafafzal-portfolio/static/js/main.5cb2bdd7.js.map"
   },
   "entrypoints": [
-    "static/css/main.884d0583.css",
-    "static/js/main.2ff55b67.js"
+    "static/css/main.57484eb1.css",
+    "static/js/main.5cb2bdd7.js"
   ]
 }
