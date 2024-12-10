@@ -34,7 +34,7 @@ function Project() {
           </p>
           <p className="py-4 text-lg">Check Out Some Of My Projects</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 text-center px-4">
+        <div className="grid grid-cols-1  sm:grid-cols-2 gap-8 text-center px-4">
           {posts.map(({ id, src, title, style, description }) => (
             <div
               key={id}

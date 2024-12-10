@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="w-full h-16 flex bg-[#B3E5FC] justify-between items-center text-black  fixed px-4 shadow-lg z-10">
-        <h1 className="text-2xl font-LyonDisplay font-medium ml-2">Kashaf Afzal</h1>
+        <h1 className="text-2xl md:text-sm font-LyonText font-signature font-medium ml-2">Kashaf Afzal</h1>
         <ul className="hidden md:flex">
           {links.map(({ id, link }) => (
             <li
