@@ -2,19 +2,63 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="w-full h-auto bg-gradient-to-b from-[#B3E5FC] to-[#FFF8E1] text-black" name='about'>
-      <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full py-5 md:py-10">
-        <div className="pb-4 text-center">
-          <h2 className="text-3xl md:text-2xl font-LyonDisplay  font-bold mb-2">About Me</h2>
-          <p className="text-base md:text-lg text-gray-600">A brief introduction about my skills and passion.</p>
+    <div name="about" className="w-full bg-white py-24 section-container">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <div className="border-l-4 border-secondary pl-6 mb-8">
+            <h2 className="text-4xl font-bold text-heading mb-2">About Me</h2>
+            <p className="text-body text-lg italic">
+              Full-Stack Engineer & Cyber Security Master's Student
+            </p>
+          </div>
+
+          <div className="text-body text-lg space-y-6">
+            <p>
+              I am a results-driven software engineer with a strong foundation in the MERN stack and blockchain technology. Currently pursuing a Masters in Cyber Security at FAST NUCES, I combine secure coding practices with modern web development to build robust digital products.
+            </p>
+            <p>
+              With experience leading teams and deploying real-world applications, I focus on solving complex problems through scalable architecture and efficient code. My work spans from decentralized freelance platforms to custom ERP systems, always prioritizing performance and user experience.
+            </p>
+            <p>
+              Whether leading a team  or architecting a smart contract protocol, I bring a disciplined, impact-focused approach to engineering.
+            </p>
+          </div>
         </div>
-        <div className="text-sm md:text-base mt-3 space-y-4">
-          <p className="text-justify">
-            Highly skilled and detail-oriented Frontend Web Developer with a passion for crafting visually appealing and user-friendly interfaces. Proficient in MongoDB, Express.js, React.js, and Node.js (MERN stack), I possess strong problem-solving abilities and a keen eye for design. I am dedicated to staying current with the latest web development trends and best practices. Eager to contribute to innovative projects, I strive to deliver high-quality web solutions that enhance user experiences.
-          </p>
-          <p className="text-justify">
-            Beyond writing clean and optimized code, I enjoy collaborating with cross-functional teams to align the frontend with the broader application architecture. I am a creative problem-solver who thrives on the challenge of finding elegant solutions to complex issues. In my free time, you can find me exploring the latest frontend development trends, contributing to open-source projects, or tinkering with personal side projects to expand my skillset. I am passionate about continuously learning and growing as a software engineer, and I am excited to bring my expertise and enthusiasm to new and challenging opportunities.
-          </p>
+
+        <div className="bg-surface p-8 rounded-xl shadow-sm border border-slate-100">
+          <h3 className="text-xl font-bold text-heading mb-6 border-b border-slate-200 pb-4">
+            Core Competencies
+          </h3>
+          <ul className="space-y-4">
+            <li className="flex items-start">
+              <span className="text-secondary mr-3 mt-1">▹</span>
+              <div>
+                <strong className="text-heading block">Full-Stack Development</strong>
+                <span className="text-body text-sm">Expertise in MERN Stack, Next.js, and SQL/NoSQL databases.</span>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-secondary mr-3 mt-1">▹</span>
+              <div>
+                <strong className="text-heading block">Blockchain Engineering</strong>
+                <span className="text-body text-sm">Smart Contract development with Solidity, Web3.js, and DeFi protocols.</span>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-secondary mr-3 mt-1">▹</span>
+              <div>
+                <strong className="text-heading block">Leadership & Agile</strong>
+                <span className="text-body text-sm">Proven ability to lead technical teams and mentor developers in agile environments.</span>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-secondary mr-3 mt-1">▹</span>
+              <div>
+                <strong className="text-heading block">Cyber Security</strong>
+                <span className="text-body text-sm">Integrating security best practices into web and blockchain architecture.</span>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
