@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kashafafzal-portfolio/static/css/main.1b355d17.css",
+    "main.js": "/kashafafzal-portfolio/static/js/main.b9e08efb.js",
+    "index.html": "/kashafafzal-portfolio/index.html",
+    "main.1b355d17.css.map": "/kashafafzal-portfolio/static/css/main.1b355d17.css.map",
+    "main.b9e08efb.js.map": "/kashafafzal-portfolio/static/js/main.b9e08efb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b355d17.css",
+    "static/js/main.b9e08efb.js"
+  ]
+}
